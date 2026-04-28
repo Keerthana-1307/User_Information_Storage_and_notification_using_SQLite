@@ -1,0 +1,43 @@
+//first go to app/src/main/res/layout/activitymain.xml//
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:padding="20dp"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+   <EditText
+       android:id="@+id/e1"
+       android:hint="Name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <EditText
+       android:id="@+id/e2"
+       android:hint="Location"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <Button
+       android:text="Save"
+       android:onClick="sav"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <EditText
+       android:id="@+id/e3"
+       android:hint="Search Name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <Button
+       android:text="Retrieve"
+       android:onClick="retrieve"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <TextView
+       android:id="@+id/tv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+   <Button
+       android:text="Notify"
+       android:onClick="showNotification"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+</LinearLayout>
+
